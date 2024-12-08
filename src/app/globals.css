@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --------------------- NavBar --------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.logo {
+  display: flex;
+  gap: 4px;
+  padding-top: 8px;
+}
+
+.logo img {
+  width: 46px;
+  height: 30px;
+}
+
+.logo .logo-text {
+  width: 130px;
+  height: 41px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.nav-btn {
+  gap: 50px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+/* --------------------- Hero --------------------- */
+
+.hero-header {
+  color: #B88E2F;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 52px;
+}
+
+.hero-text {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins";
+  color: #333333;
+}
+
+.hero-btn {
+  background-color: #B88E2F;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+}
+
+/* --------------------- Browse The Range --------------------- */
+
+.browse {
+  color: #333333;
+}
+
+/* --------------------- Our Product --------------------- */
+
+.product-btn {
+  border: 1px solid #B88E2F;
+  background-color: #fff;
+  font-family: "Poppins";
+  color: #B88E2F;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.product-btn:hover {
+  background-color: #B88E2F;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+/* --------------------- Footer --------------------- */
+
+.footer-header h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 23px;
+}
+
+.footer-left-text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.footer-center-heading {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.footer-center-text {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.subscribe {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.copyright {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
